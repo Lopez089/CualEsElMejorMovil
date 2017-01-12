@@ -1,0 +1,167 @@
+<!doctype html>
+	<html lang="es">
+		<head>
+			<title>Comparador de móviles ComPreBajo</title>
+			<meta charset="UTF-8">
+			<meta name="Description" content="Comprebajo el comparador de móviles." />
+			<meta name="keywords" content="comparador de móviles, comparador de precios moviles, comparativas móviles, comparador telefonos moviles, comparador de moviles "/>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+			<meta name="google-site-verification" content="xLkXqAYUYldWMCyDvyJhBZ1pA2Cz6rJwMhG57KLN5vg" />
+			<link rel="shortcut icon" type="image/x-icon" href="/imag/logo.ico" />
+			<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+			<link href="css/normalize.css" rel="stylesheet">
+			<link rel="stylesheet" href="css/estilos.css">
+			<link rel="stylesheet" href="css/movil-vercial.css" media="only screen and (max-width:479px)">
+			<link rel="stylesheet" href="css/movil-horizontal.css" media="only screen and (min-width: 480px) and (max-width: 767px)">
+			<link rel="stylesheet" href="css/tablet-vertival.css" media="only screen and (min-width: 678px) and (max-width: 1023px)">
+			<link rel="stylesheet" href="css/escritorio-tablet-hori.css" media="only screen and (min-width: 1024px)">
+			<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+			<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+			<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+			<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-62842568-1', 'auto');
+			  ga('send', 'pageview');
+
+			</script>
+			<script src="js/jquery.js"></script>
+			<script src="js/script.js"></script>
+
+		</head>
+		<body>
+		<div id="fondo">
+			<div id="menu-des-contenedor">
+				<div class="menu-des container">
+					<span id="remove" class="glyphicon glyphicon-remove"></span>
+					<ul class="col-md-4 col-sm-4 col-xs-6 col-md-offset-4 col-sm-offset-4 col-xs-offset-3">
+						<li><span class="glyphicon glyphicon-home"></span></li><a href="#header" onClick="ga('send','event', 'botones','home')">Home</a>
+						<li><span class="glyphicon glyphicon-heart-empty"></span></li><a href="#about" onClick="ga('send','event', 'botones','SobreNosotos')">Sobre nosotros</a>
+						<li><span class="glyphicon glyphicon-phone"></span></li><a href="#portafolios" onClick="ga('send','event', 'botones','Servicios')">Servicios</a>
+						<li><span class="glyphicon glyphicon-envelope"></span></li><a href="#contacto" onClick="ga('send','event', 'botones','Contacto')">Contacto</a>
+					</ul> 
+				</div><!-- fin del menu despegable -->
+			</div><!-- fin del contenedo menu despegable -->
+			<div class="clearfix">	</div>
+
+			<header id="header">
+				<div id="header-container" class="container">
+					<nav class="col-md-12 col-sm-12 col-xs-12">
+						<div class="col-xs-2 col-md-2">
+							<div id="logo"><p>C</p></div>
+						</div>
+						<div class="col-xs-1 col-md-1 col-md-offset-9 navegacion">
+							<span id="navegador" class="glyphicon glyphicon-align-justify icon-white" onClick="ga('send','event', 'botones','menu')"></span>
+						</div>
+					</nav>
+					<div class="clearfix">	</div>
+					<form action="comparador.php" name="comparadorComprebajo" method="post">
+					<div id="header-cont" class="">
+						<h1 class="col-md-12 col-sm-12 col-xs-12">Compara telefonos moviles</h1>
+					
+						<div id="AgregarMovil" class="row">
+							<div class="moviles col-md-3 col-sm-3 col-xs-3">
+								<span class="iconoMovil"></span>
+								<p>Añadir móvil</p>
+								<label class="marca"  >Marca</label>
+								<input class="input_marca" name="marca1" type="text">
+								<label class="modelo" for="">Modelo</label>
+								<input class="input_modelo" name="modelo1" type="text">
+							</div>
+							<div class="moviles col-md-3 col-sm-3 col-xs-3">
+								<span class="iconoMovil"></span>
+								<p>Añadir móvil</p>
+								<label class="marca" >Marca</label>
+								<input class="input_marca" name="marca2" type="text">
+								<label class="modelo" for="">Modelo</label>
+								<input class="input_modelo" name="modelo2" type="text">
+							</div>
+							<div class="moviles col-md-3 col-sm-3 col-xs-3">
+								<span class="iconoMovil"></span>
+								<p>Añadir móvil</p>
+								<label class="marca" >Marca</label>
+								<input class="input_marca" name="marca3" type="text">
+								<label class="modelo" for="">Modelo</label>
+								<input class="input_modelo" name="modelo3" type="text">
+							</div>
+							<div class="moviles col-md-3 col-sm-3 col-xs-3">
+								<span class="iconoMovil"></span>
+								<p>Añadir móvil</p>
+								<label class="marca" >Marca</label>
+								<input class="input_marca"  name="marca4" type="text">
+								<label class="modelo" for="">Modelo</label>
+								<input class="input_modelo" name="modelo4" type="text">
+							</div>
+						</div>
+						<div class="clearfix">	</div>		
+					</div><!-- fin del div header-cont -->
+					<div id="caracteristicas" class="row">
+						<p>¿Que caracteristica te interesan comparar?</p>
+						<div class="apartado1 col-md-4 col-sm-4 col-xs-4" >
+							<label class="checkbox">
+	    						<input type="checkbox" name="Review" id="como1" value="Review"> Review
+	  						</label>
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="Diseño"  value="Diseño"> Diseño y materiales
+	  						</label>
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="potencia"  value="potencia"> Potencia y hardware
+	  						</label>
+	  					</div>
+	  					<div class="apartado2 col-md-4 col-sm-4 col-xs-4" >
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="camara"  value="camara"> Camara
+	  						</label>
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="conectividad"  value="conectividad"> Conectividad
+	  						</label>
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="bateria"  value="bateria"> Bateria
+	  						</label>
+	  					</div>
+  						<div class="apartado3 col-md-4 col-sm-4 col-xs-4" >
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="software"  value="software"> Software
+	  						</label>
+	  					</div>
+  					</div>
+  					<div class="clearfix">	</div>
+  					<div id="Compra" class="row">
+						<p>¿Quieres comparar el precio de los moviles en varias teienda y comprarar al mejor precio?</p>
+						<div class="apartado1 col-md-4 col-sm-4 col-xs-4" >
+							<label class="checkbox">
+	    						<input type="checkbox" name="No"  value="No"> No
+	  						</label>
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="markt"  value="markt"> Media markt
+	  						</label>
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="ebay"  value="ebay"> ebay
+	  						</label>
+	  					</div>
+						<div class="apartado2 col-md-4 col-sm-4 col-xs-4" >
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="amazon"  value="amazon"> amazon
+	  						</label>
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="Redcoon"  value="Redcoon"> Redcoon
+	  						</label>
+	  						<label class="checkbox">
+	    						<input type="checkbox" name="rakuten"  value="rakuten"> rakuten
+	  						</label>
+	  					</div>
+  						
+  					</div>
+  					<button type="submit" class="btn">Comparar Moviles</button>
+  				</form>
+				</div><!-- fin del div header-container	 -->
+					
+			</header><!-- fin del header -->
+		</div>
+		</body>
+	</html>

@@ -1,0 +1,114 @@
+/***HEADER***/
+
+#logo{
+	width: 100px;
+	height: 100px;
+	box-shadow:         16px 16px 4px 3px rgba(38, 176, 230, 0.70);	
+		-webkit-box-shadow: 16px 16px 4px 3px rgba(38, 176, 230, 0.70);
+		-moz-box-shadow:    16px 16px 4px 3px rgba(38, 176, 230, 0.70);
+}
+	#logo p{
+		font-size:3.6em ;
+	}
+.navegacion{
+	padding-right: 0px;
+	padding-top: 4%;
+}
+	nav span{
+		float:right;
+	}
+#header-cont{
+padding-top:9%;         
+}
+#header-cont h1{
+	font-size:6em;
+}
+#header-cont p{
+	font-size: 2em;
+}
+#header-cont a{
+	font-size: 1.2em;
+	margin-top: 5%;
+	float:right;
+}
+
+/*** SECTION ***/
+
+	section #cont-section{
+		margin-top:7%;
+	}
+		#cont-section h2{
+			font-size: 2.5em;
+		}
+		#cont-section p{
+			margin-top: 7%;
+			text-align: justify;
+			font-size: 1.2em;
+		}
+		#cont-section blockquote{
+			margin-left: 6px;
+			padding: 0px 15px;
+			font-size: 1em;
+		}
+		#cont-section a{
+			margin-top:5%;
+			position: absolute;
+		}
+
+/*** PORTAFOLIOS ***/
+
+#portafolios{
+	height: 100%;
+}
+	.descri-porta{
+		margin-top:3%;
+	}
+		.descri-porta h3{
+			margin-top:7%;
+			font-size: 2.5em;
+		}
+		.descri-porta p{
+			margin-top:5%;
+			font-size: 1.3em;
+		}
+		.descri-porta a{
+			font-size: 1em;
+			margin-top: 5%;
+		}
+			#ico-bribbble{
+				
+			}
+
+/*** CONTACTO ***/
+
+#pregunta h4{
+	margin-top:4%;
+	font-size: 2.7em;
+}
+#icon-beer {
+	margin-top:4%;
+}
+#redessociales li {
+    padding: 0px;
+    margin-right: 5%;
+    margin-top:8%;
+}
+#redessociales .db{
+	margin-left: 37%
+}
+.newsletter{
+	margin-top:10%;
+	text-align: center;
+}
+.newsletter label{
+	margin-right: 6%;
+}
+
+/*** FOOTER ***/
+footer p{
+	padding-top:6%;
+	font-size:1.1em;
+}
+footer #botton-arriba{
+	margin-top:5%;
+}

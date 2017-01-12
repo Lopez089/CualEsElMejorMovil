@@ -1,0 +1,291 @@
+
+/***HEADER***/
+
+#logo{
+	width: 65px;
+	height: 65px;
+	box-shadow:         10px 10px 4px 3px rgba(38, 176, 230, 0.70);	
+		-webkit-box-shadow: 10px 10px 4px 3px rgba(38, 176, 230, 0.70);
+		-moz-box-shadow:    10px 10px 4px 3px rgba(38, 176, 230, 0.70);
+}
+	#logo p{
+		font-size:2.3em ;
+	}
+.navegacion{
+	padding-top: 4%;
+	margin-left: 74%
+}
+	nav span{
+		float:right;
+	}
+#header-cont{
+padding-top:9%;         
+}
+#header-cont h1{
+	font-size:6em;
+	text-align: center;
+}
+#header-cont p{
+	font-size: 1.3em;
+	text-align: center;
+}
+#header-cont a{
+	font-size: 1.2em;
+	padding: 8px 16px;
+	margin-top: 5%;
+}
+#header-cont img{
+	visibility: hidden;
+}
+
+/*** SECTION ***/
+
+section{
+	background:  #f4f4f4;
+}
+	section #cont-section{
+		margin-top:5%;
+	}
+		#cont-section h2{
+			text-align: center;
+			font-size: 2.5em;
+		}
+		#cont-section p{
+			margin-top: 5%;
+			text-align: justify;
+			font-size: 1.1em;
+		}
+		#cont-section blockquote{
+			margin-left: 6px;
+			padding: 0px 10px;
+			font-size: 0.9em;
+		}
+		.botton-hello{
+			text-align: center;
+			margin-top: 10%;
+		}
+
+/*** PORTAFOLIOS ***/
+
+#portafolios{
+	background:#fff ;
+}
+	.descri-porta{
+		margin-top:10%;
+		text-align: center;
+	}
+		.descri-porta h3{
+			margin-top:5%;
+			font-size: 2.5em;
+		}
+		.descri-porta p{
+			margin-top:5%;
+			font-size: 1.1em;
+		}
+		.descri-porta a{
+			font-size: 1em;
+		}
+
+/*** CONTACTO ***/
+
+#pregunta h4{
+	margin-top:7%;
+	font-size: 2.3em;
+}
+#redessociales li {
+    padding: 0px;
+    margin-right: 20px;
+    margin-top:8%;
+}
+#redessociales .db{
+	margin-left: 30%
+}
+#redessociales label {
+		text-align: center;
+		margin-top: 10%
+	}
+	#redessociales .email {
+		text-align: center;
+		margin-top: 5%;
+	}
+
+
+/*** FOOTER ***/
+footer p{
+	padding-top:7%;
+	font-size:1.1em;
+}
+footer #botton-arriba{
+	margin-top:5%;
+}
+
+/*** MEDIA QUERIES***/
+
+@media only screen and (min-width: 647px) and (max-width: 707px) {
+/***HEADER***/
+
+	.navegacion{
+		margin-left: 72%;
+    }
+	#header-cont h1{
+		font-size:5.5em  ;
+	}
+	#header-cont p{
+		font-size: 1.2em;
+	}
+	#header-cont a{
+		font-size: 1.1em;
+	}
+/*** FOOTER ***/
+	footer p{
+		font-size: 1.1em;
+		padding-top:10%;
+	}
+	footer #botton-arriba{
+		margin-top:8%;
+	}
+}
+@media only screen and (min-width: 587px) and (max-width: 656px) {
+/***HEADER***/
+
+	.navegacion{
+		margin-left: 72%;
+    }
+	#header-cont h1{
+		font-size:4.8em  ;
+	}
+	#header-cont p{
+		font-size: 1em;
+	}
+	#header-cont a{
+		font-size: 1.1em;
+	}
+/*** FOOTER ***/
+	footer p{
+		padding-top:10%;
+	}
+	footer #botton-arriba{
+		margin-top:8%;
+	}
+}
+@media only screen and (min-width: 527px) and (max-width: 586px) {
+/***HEADER***/
+
+	.navegacion{
+		margin-left: 72%;
+    }
+	#header-cont h1{
+		font-size:4em  ;
+	}
+	#header-cont p{
+		font-size: 1.1em;
+	}
+	#header-cont a{
+		font-size: 1.1em;
+	}
+/*** SECTION ***/
+
+	#cont-section h2{
+		font-size: 1.8em;
+	}
+	#cont-section p{
+		font-size: 0.88em;
+	}
+	#cont-section blockquote{
+		font-size: 0.9em;
+	}
+	#cont-section a{
+		font-size: 0.88em;
+	}
+/*** PORTAFOLIOS ***/
+
+.descri-porta h3{
+	font-size:1.6em;		
+}
+.descri-porta p{
+	font-size:0.9em;					
+}
+.descri-porta a{
+	font-size:0.8em;		
+}
+/*** CONTACTO ***/
+
+#pregunta h4{
+	font-size: 1.5em;
+}
+#pregunta a{
+	font-size: 0.9em;
+}
+#redessociales .db {
+margin-left: 24%;
+}
+
+/*** FOOTER ***/
+footer p{
+	padding-top:6%;
+	font-size:1em;
+}
+footer #botton-arriba{
+	margin-top:3%;
+}
+}
+@media only screen and (max-width: 526px) {
+/***HEADER***/
+
+	.navegacion{
+		margin-left: 72%;
+    }
+	#header-cont h1{
+		font-size:3.5em  ;
+	}
+	#header-cont p{
+		font-size: 1em;
+	}
+	#header-cont a{
+		font-size: 1.1em;
+	}
+/*** SECTION ***/
+
+	#cont-section h2{
+		font-size: 1.8em;
+	}
+	#cont-section p{
+		font-size: 0.88em;
+	}
+	#cont-section blockquote{
+		font-size: 0.9em;
+	}
+	#cont-section a{
+		font-size: 0.88em;
+	}
+/*** PORTAFOLIOS ***/
+
+.descri-porta h3{
+	font-size:1.6em;		
+}
+.descri-porta p{
+	font-size:0.9em;					
+}
+.descri-porta a{
+	font-size:0.8em;		
+}
+/*** CONTACTO ***/
+
+#pregunta h4{
+	font-size: 1.5em;
+}
+#pregunta a{
+	font-size: 0.9em;
+}
+#redessociales .db {
+margin-left: 24%;
+}
+/*** FOOTER ***/
+footer p{
+	padding-top:6%;
+	font-size:1em;
+}
+footer #botton-arriba{
+	margin-top:3%;
+}
+}

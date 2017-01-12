@@ -1,0 +1,434 @@
+/***RESETS***/
+*{
+	margin:0;
+	padding:0;
+}
+html, body, h1, h2, h3, h4, ul, li{
+	margin:0;
+	padding:0;
+}
+body, html{
+	height:100%;
+}
+h1 img{		
+	display:block;
+}2
+img{
+	border:0;
+}
+a{
+	color:#fff;
+	text-decoration:none;
+}
+.nf{
+	clear:both;
+}
+
+/***ESTILOS GENERALES***/
+
+/*** MENU DESPLEGABLE ***/
+#menu-des-contenedor{
+	visibility: hidden;
+	z-index: 1;
+	position: absolute;
+	width: 100%
+}
+.menu-des, #menu-des-contenedor{
+	height: 100%;
+	background:url(../img/bg-menu-desplegable.png);	
+}
+	.menu-des span{
+		color:#fff;
+	}
+		#remove{
+			float: right;
+			top:7%;
+			cursor: pointer;
+		}
+	.menu-des ul{
+		top:20%;
+		list-style: none;
+	}
+		.menu-des li{
+			width: 50px;
+			height: 50px;
+			border-radius: 200px 200px 200px 200px;
+				-moz-border-radius: 200px 200px 200px 200px;
+				-webkit-border-radius: 200px 200px 200px 200px;
+			background: #fff;
+			margin-top:15px;	
+		}
+			.menu-des li span{
+				color:#4eacdd;
+				top:17px;
+				left: 18px;
+			}
+				.menu-des a{
+					color:#fff;
+					text-decoration: none;
+    				margin-left: 70px;
+    				position: absolute;
+    				margin-top:-35px;
+    				font-size: 1.2em;
+				}
+
+/***HEADER***/
+
+header{
+	height:100%;
+	background: url(../img/bg_header.jpg);
+}
+	#header-container{
+		height:100%;
+	}
+			nav{
+				height:18%;
+			}
+				#logo{
+					background: #fff;
+				}
+					#logo p{
+						color:#0da9e5;
+						font-family: 'Merienda One', cursive;
+						text-align: center;
+					}	
+				nav span{
+					color:#fff;
+				}
+				#navegador{
+					cursor: pointer;
+				}
+			#header-cont{
+				text-align: center;
+			}
+				#header-cont h1{
+					color:#fff;
+					font-family: 'Courgette', cursive;
+					text-align: right;
+				}
+				#header-cont p{
+					color:#fff;
+					font-family: 'Ubuntu', sans-serif;
+					text-align: right;
+				}
+				.botton-descargas{
+					margin-top: 20px;
+				}
+				#header-cont a{
+					color:#fff;
+					border:2px solid #fff;
+					border-radius:2px;
+					
+					font-family: 'Roboto', sans-serif;
+					text-decoration: none;
+					padding: 8px 16px;
+					margin-top: 5%;
+				}
+				#header-cont span{
+					padding-left:7px ;
+				}
+				#header-cont img{
+					bottom: 0px; 
+					position: absolute;
+				}
+				
+/*** SECTION ***/
+
+section{
+	height:100%;
+	background:  url(../img/tablet-section.png) bottom right no-repeat, #f4f4f4;	
+}
+	section #cont-section{
+		height:100%
+	}
+		#cont-section h2{
+			color:#858585;
+			font-family: 'Roboto', sans-serif;
+		}
+		#cont-section blockquote{
+			border-color: #4eacdd;
+		}
+		#cont-section p, #cont-section blockquote p{
+			color:#858585;
+			font-family: 'Roboto', sans-serif;
+		}
+		#cont-section a{
+			color: #14af8f;
+			border:2px solid #14af8f;
+			border-radius:2px;
+			font-family: 'Roboto', sans-serif;
+			text-decoration: none;
+			padding: 8px 16px;
+			margin-top: 5%;
+		}
+		#cont-section span{
+			padding-left:7px ;
+		}
+			
+			.newsletter label{
+				font-family: 'Roboto', sans-serif;
+				color:#545454;
+			}
+			.newsletter  input{
+				font-family: 'Roboto', sans-serif;
+				color:#d3d3d3;
+				padding: 15px;
+				border:0px solid ;
+				border-radius: 10px;
+				width: 217px;
+			}
+			.newsletter span{
+				position: absolute;
+				margin-left: 184px;
+				margin-top: 16px;
+				color:#84cded;
+			}
+			.newsletter input{
+				color:#000;
+			}
+/*** PORTAFOLIOS ***/		
+
+#portafolios{
+	height: 100%;	
+	background: url(../img/dispositivos-portafolios.png) bottom left no-repeat;
+}
+	.descri-porta h3{
+		font-family: 'Roboto', sans-serif;
+		color:#545454;
+	}
+	.descri-porta p{
+		font-family: 'Roboto', sans-serif;
+		color:#474e5d;
+	}
+	.descri-porta #destacado{
+		font-family: 'Roboto', sans-serif;
+		color:#7e7e7e;
+	}
+	.descri-porta a{
+		color: #ea4c89;
+		border:2px solid #ea4c89;
+		border-radius:2px;
+		font-family: 'Roboto', sans-serif;
+		text-decoration: none;
+		padding: 8px 16px;
+    	padding-right: 37px;
+	}
+	.descri-porta .botton-view{
+			margin-top: 10%;
+		}
+		.descri-porta span{
+			margin: 3px 0px 0px 7px;
+		}
+		#ico-bribbble{
+			background:url(../img/DRIBBBLE.png) no-repeat;
+			width: 14px;
+			height: 14px;
+			position: absolute;
+		}
+
+/*** CONTACTO ***/
+
+#contacto{
+	height: 100%
+}
+	#pregunta{
+		height: 35%;
+		background: url(../img/bg_redes.jpg);
+	}
+		#pregunta h4{
+			color:#fff;
+			font-family: 'Roboto', sans-serif;
+			text-align: center;	
+		}
+		#icon-beer{
+			text-align: center;
+			margin-top: 10%;
+		}
+			.ico-beer{
+				background:url(../img/beer.png) no-repeat;
+				width: 14px;
+				height: 14px;
+				position: absolute;
+				margin: 4px 0px 0px 7px;
+			}
+			#pregunta a{
+				color: #fff;
+				border:2px solid #fff;
+				border-radius:2px;
+				font-family: 'Roboto', sans-serif;
+				text-decoration: none;
+				padding: 8px 16px;
+    			padding-right: 37px;
+			}
+	#redessociales{
+		height: 65%;
+		background: #f4f4f4;
+	}
+		#redessociales ul{
+			overflow: hidden;
+			list-style: none;
+		}
+			#redessociales li {
+				float: left;
+				width: 50px;
+				height: 50px;
+				border-radius: 200px 200px 200px 200px;
+					-moz-border-radius: 200px 200px 200px 200px;
+					-webkit-border-radius: 200px 200px 200px 200px;
+				border: 3px solid #545454;
+				
+			}
+					#redessociales .db{
+						background: url(../img/sociales.png)-93px 8px no-repeat;
+					}
+					#redessociales .fb{
+						background: url(../img/sociales.png)-62px 8px no-repeat;
+					}
+					#redessociales .tw{
+						background: url(../img/sociales.png)-25px 8px no-repeat;
+					}
+					#redessociales .tl{
+						background: url(../img/sociales.png)7px 8px no-repeat;
+					}
+		#newsletter{
+
+		}
+			#redessociales label{
+				font-family: 'Roboto', sans-serif;
+				color:#545454;
+			}
+			#redessociales  input{
+				font-family: 'Roboto', sans-serif;
+				color:#d3d3d3;
+				padding: 15px;
+				border:0px solid ;
+				border-radius: 10px;
+				width: 217px;
+			}
+			#redessociales span{
+				position: absolute;
+				margin-left: 184px;
+				margin-top: 16px;
+				color:#84cded;
+			}
+			#redessociales input{
+				color:#000;
+			}
+/*** FOOTER ***/
+
+footer{
+	height: 19%;
+}
+	footer p{
+		font-family: 'Roboto', sans-serif;
+		color:#545454;
+		text-align: center;
+	}
+	footer p a{
+		color:#6dc5ea;
+	}
+	footer #botton-arriba{
+		width: 38px;
+		height: 38px;
+		background:#f4f4f4 ;
+		border-radius: 3px;
+		float:right;
+	}
+	#botton-arriba span{
+		color:#545454;
+		margin:11px 0px 0px 13px;
+	}
+	footer #botton-arriba{
+	margin:9% 0px 0px 0px;
+	position: relative;
+	}
+
+	/**** pagina comparador de moviles *****/
+
+	 #info{
+		padding: 20% 20% 0% 20%;
+	}
+
+/******	Comprebajo.html********/
+
+#fondo{
+	background: url(../img/bg_header.jpg);
+	padding-bottom: 80px;
+}
+
+.moviles{
+	margin-top: 30px;
+}
+.iconoMovil{
+	background-image: url(../img/smartphone.png);
+	padding: 4px 57px 44px 20px;
+}
+#AgregarMovil p{
+	font-size: 1.3em;
+  	text-align: center;
+  	margin-top: 43px;
+}
+#AgregarMovil label{
+	color:#403D50;
+	font-family: 'Merienda One';
+	text-align: center;
+}
+#AgregarMovil .marca{
+	margin-left: -20px;
+	position: absolute;
+
+}
+#AgregarMovil .input_marca{
+	margin-top: 25px;
+	border-radius: 9px;
+	height:28px;
+	text-align: center;
+}
+#AgregarMovil .modelo{
+	margin-left: -110px;
+	margin-top: 60px;
+	position: absolute;
+
+}
+#AgregarMovil .input_modelo{
+	margin-top: 28px;
+	border-radius: 9px;
+	height:28px;
+	text-align: center;
+}
+#caracteristicas{
+	margin-top: 40px;
+}
+#caracteristicas p{
+	font-family: 'Roboto', sans-serif;
+	color:#545454;
+	font-size:2em;
+}
+#Compra{
+	margin-top: 40px;
+}
+#Compra p{
+	font-family: 'Roboto', sans-serif;
+	color:#545454;
+	font-size:2em;
+}
+
+/******	Comprebajo.html TABLAS DE COMPARACIONES********/
+
+.boton_comparar{
+	margin:40px 0px 0px 225px;
+}
+table{
+	margin-top: 77px;
+	text-align: center;
+}
+#img-movil{
+	height: 100px;
+}
+td a{
+	color: #000;
+	text-align: center;
+}
+.img-telefono{
+	background: url(../img/smartphone.png) no-repeat;
+}
