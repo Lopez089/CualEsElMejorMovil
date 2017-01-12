@@ -1,2 +1,2 @@
 # CualEsElMejorMovil
-Este Proyecto es De Una Empresa de evento de fiesta Llamada World Party. La web ESTABA Dedicada a la promoción de discotecas. Creada Fue En El año 2013, FUE Mi Primer Proyecto y se nota jajaj. Para su Realización se usaron Tecnología Como HTML, CSS, JS.
+Este Proyecto es De Una Startup se dedican a comparar precios de telefonos moviles. La web es una comparador de precios y caracterisias de moviles. Fue creada En El año 2015. Para su Realización se usaron Tecnología Como HTML, CSS, JS, JQuery, Bootstrap.
